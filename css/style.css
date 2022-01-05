@@ -113,3 +113,8 @@ body {
   font-size: 1.8rem;
   font-weight: 600;
 }
+
+.delivered-text span {
+  font-weight: 700;
+  color: #cf711f;
+}
