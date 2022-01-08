@@ -112,11 +112,6 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
-/* HELPERS */
-
-.margin-right-sm {
-  margin-right: 1.6rem !important;
-}
 
 /***************************/
 /* HEADER SECTION */
@@ -249,4 +244,43 @@ body {
 .delivered-text span {
   font-weight: 700;
   color: #cf711f;
+}
+
+/***************************/
+/* HOW IT WORKS SECTION */
+/***************************/
+
+.section-how{
+  padding: 9px 0;
+  background-color: red;
+}
+
+.section-how div:nth-child(1){
+  background-color: blue;
+}
+
+.section-how div:nth-child(2){
+  background-color: yellow;
+}
+
+.section-how div:nth-child(3){
+  background-color: orange;
+}
+
+.section-how div:nth-child(4){
+  background-color: pink;
+}
+
+
+
+
+
+
+
+/* *********** */
+/* HELPERS */
+/* *********** */
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
 }
