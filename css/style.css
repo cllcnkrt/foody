@@ -175,7 +175,7 @@ body {
 
 .section-hero {
   background-color: #fdf2e9;
-  padding: 2.4rem 0 9.6rem 0;
+   padding: 2.4rem 0 9.6rem 0; 
 }
 
 .hero {
@@ -186,7 +186,6 @@ body {
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
   align-items: center;
-
 }
 
 .heading-primary {
@@ -249,11 +248,26 @@ body {
 
 .section-how {
   padding: 9.6rem 0;
-  background-color: red;
-
+  /* background-color: #fdf2e9; */
 }
 
-.container{
+.step-img{
+  width: 50%;
+}
+
+
+
+
+
+
+
+
+
+/* *********** */
+/* HELPERS */
+/* *********** */
+
+.container {
   max-width: 110rem;
   margin: 0 auto;
   padding: 0 3.2rem;
@@ -262,7 +276,6 @@ body {
 .grid {
   display: grid;
   gap: 9.6rem;
- 
 }
 
 .grid--2-col {
@@ -276,19 +289,6 @@ body {
 .grid--4-col {
   grid-template-columns: repeat(4, 1fr);
 }
-
-.section-how div div {
-  padding: 100px;
-  font-size: 50px;
-  background-color: #fdf2e9;
-}
-
-
-
-/* *********** */
-/* HELPERS */
-/* *********** */
-
 
 .margin-right-sm {
   margin-right: 1.6rem !important;
