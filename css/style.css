@@ -138,18 +138,19 @@
   margin-bottom: 1.2rem;
 }
 
+.step-description{
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
+
+.step-img-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .step-img {
-  width: 50%;
+  width: 30%;
 }
 
-
-.subheading {
-  display: block;
-  font-size: 2rem;
-  font-weight: 500;
-  color: #cf711f;
-  text-transform: uppercase;
-  margin-bottom: 1.6rem;
-  letter-spacing: 0.75px;
-}
 
