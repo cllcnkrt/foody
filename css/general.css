@@ -151,9 +151,6 @@ body {
   letter-spacing: 0.75px;
 }
 
-
-
-
 /* *********** */
 /* HELPERS */
 /* *********** */
@@ -166,7 +163,12 @@ body {
 
 .grid {
   display: grid;
-  gap: 9.6rem;
+  column-gap: 4.8rem;
+  row-gap: 9.6rem;
+}
+
+.grid--center-v{
+  align-items: center;
 }
 
 .grid--2-col {
