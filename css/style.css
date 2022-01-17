@@ -322,3 +322,45 @@
   text-align: center;
   font-size: 1.8rem;
 }
+
+/***************************/
+/* TESTIMONIALS SECTION */
+/***************************/
+
+.section-testimonials {
+  padding: 9.6rem 0;
+  background-color: turquoise;
+}
+
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4.8rem;
+  background-color: violet;
+}
+
+.testimonial-img-box {
+  width: 6.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color:#777;
+}
+
+.gallery {
+  background-color: yellow;
+}
