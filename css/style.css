@@ -406,7 +406,7 @@
 .pricing-plan--complete::after {
   content: 'Best value';
   position: absolute;
-  top:5%;
+  top: 5%;
   right: -13%;
 
   text-transform: uppercase;
@@ -456,12 +456,11 @@
   margin-top: 4.8rem;
 }
 
-.plan-details{
+.plan-details {
   font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;
 }
-
 
 .feature-icon {
   width: 3.2rem;
@@ -483,4 +482,40 @@
 .feature-text {
   font-size: 1.8rem;
   line-height: 1.8;
+}
+
+/***************************/
+/* CTA SECTION */
+/***************************/
+
+.section-cta {
+  background-color: #fdf2e9;
+  padding: 9.6rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  background-color: #e67e22;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.015);
+  border-radius: 11px;
+
+  background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
+
+  /* temp */
+  height: 50rem;
+}
+
+.cta-text-box {
+}
+
+.cta-img-box {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(235, 151, 78, 0.35),
+      rgba(230, 125, 34, 0.35)
+    ),
+    url('../img/eating.jpg');
+  background-size: cover;
+  background-position: center;
 }
