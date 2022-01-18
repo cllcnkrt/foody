@@ -65,8 +65,9 @@ Medium: 11px
 html {
   font-size: 62.5%;
 }
+
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Rubik', sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -77,6 +78,20 @@ body {
 
 /* BUTTONS */
 
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem !important;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
+  box-shadow: inset 0 0 0 3px #45260a;
+}
+
+.btn,
 .btn:link,
 .btn:visited {
   text-decoration: none;
@@ -85,6 +100,10 @@ body {
   display: inline-block;
   padding: 1.6rem 3.2rem;
   border-radius: 0.8rem;
+
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 
   transition: all 0.3s;
 }
@@ -182,6 +201,11 @@ body {
   gap: 1.6rem;
 }
 
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.5);
+}
+
 /* *********** */
 /* HELPERS */
 /* *********** */
@@ -218,10 +242,13 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.grid--5-col {
+  grid-template-columns: repeat(5, 1fr);
+}
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
-
 
 .margin-bottom-md {
   margin-bottom: 3.8rem !important;
@@ -230,7 +257,6 @@ body {
 .center-text {
   text-align: center;
 }
-
 
 strong {
   font-weight: 600;
