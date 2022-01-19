@@ -9,7 +9,7 @@
   background-color: #fdf2e9;
 
   height: 4.8rem;
-  padding: 0 4.8rem;
+  padding: 2.4rem 4.8rem 0 4.8rem;
 }
 
 .logo {
@@ -25,7 +25,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -62,7 +62,7 @@
 
 .section-hero {
   background-color: #fdf2e9;
-  padding: 2.4rem 0 9.6rem 0;
+  padding: 3.6rem 0 9.6rem 0;
 }
 
 .hero {
@@ -366,6 +366,7 @@
   width: 100%;
   transition: all 0.4s;
 }
+
 
 .gallery-item img:hover {
   transform: scale(1.1);
